@@ -38,7 +38,7 @@ export default function Home() {
         return response.text()
       })
       .then(data =>
-        console.log(data))
+        alert('Thank you! We will email you once we have the product ready'))
       .catch(error => {
         alert(error.message)
       })
